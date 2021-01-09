@@ -1,0 +1,155 @@
+<!DOCTYPE>
+<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<link rel="stylesheet" href="./css/one_page_website.css">
+			<script src="JS/one_page_website.js" defer></script>
+			<title>Genesis Labs</title>
+		</head>
+		<body>
+	
+		
+				
+		<!-- NAVIGATION -->
+		<div>
+			<div>
+					<a href="#home"><li>HOME</li></a>
+					<a href="#gallery"><li>INVENTORY</li></a>
+					<a href="#contact"><li>BETA TEST RESERVATIONS</li></a>	
+				</ul>
+			</div>
+		</div> 
+		<!--END NAVIGATION-->
+		
+		<!--HOME-->
+		<div id="home">
+			<div>
+				<div>
+					<span>GENESIS LABS</span>
+				</div>
+			</div>
+		</div>
+		<!--END HOME-->
+		
+		<!--GALLERY-->
+			<div id="gallery">
+				<h1>INVENTORY</h1>
+				<div>
+				
+			<!-- Images used to open lightbox -->
+		<div class="row">
+			<div class="column">
+				<img src="./Images/Thumb/Gun.png"  width="500" height="600" onclick="openModal();currentSlide(1)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/Gun_2.png"  width="500" height="600" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/Gun_3.png"  width="500" height="600" onclick="openModal();currentSlide(3)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="./Images/Thumb/Gun_4.png"  width="500" height="600" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			</div>
+		</div>
+
+		<!-- The Modal/Lightbox -->
+		<div id="myModal" class="modal">
+			<span class="close cursor" onclick="closeModal()">&times;</span>
+			<div class="modal-content">
+		  
+			  <div class="mySlides">
+				<div class="numbertext">1 / 3</div>
+				<img src="./Images/Thumb/Gun.png" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">2 / 3</div>
+				<img src="./Images/Thumb/Gun_2.png" style="width:100%">
+			  </div>
+		  
+			  <div class="mySlides">
+				<div class="numbertext">3 / 3</div>
+				<img src="./Images/Thumb/Gun_3.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides">
+				<div class="numbertext">3 / 3</div>
+				<img src="./Images/Thumb/Gun_4.png" style="width:100%">
+			  </div>
+			
+			  
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		  
+			  <div class="caption-container">
+				<p id="caption"></p>
+			  </div>
+		  
+		  
+			  <div class="column">
+				<img class="demo cursor" src="./Images/Thumb/Gun.png" style="width:100%" onclick="currentSlide(1)" alt="RX34">
+			  </div>
+			  <div class="column">
+				<img class="demo cursor" src="./Images/Thumb/Gun_2.png" style="width:100%" onclick="currentSlide(2)" alt="RX34">
+			  </div>
+			  <div class="column">
+				<img class="demo cursor" src="./Images/Thumb/Gun_3.png" style="width:100%" onclick="currentSlide(3)" alt="RX34">
+			  </div>
+			  <div class="column">
+				<img class="demo cursor" src="./Images/Thumb/Gun_4.png" style="width:100%" onclick="currentSlide(3)" alt="RX34">
+			  </div>
+			</div>
+		  </div>
+
+						<!----VIDEO CONTAINER ONE----->
+					<section>
+						<div>
+							<h2>ADVANCEMENTS IN THE US ARMY</h2>
+								<p>Genesis labs in alliance with the US ARMY is breaking through with the most technologically advanced weapons and defense systems in the world.</p>
+								<iframe width="600" height="700" src="https://www.youtube.com/embed/r1m68B53jek">
+								</iframe>
+						</div>
+					</section>
+						<!----VIDEO CONTAINER END----->
+	
+		
+		<!--RSVP-->
+		<section>
+			<div id="contact">
+				<div>
+					<h1>RESERVATIONS<h1>
+					<div>
+						<h2><span></span>
+							WEAPONS STOCK IS RUNNING OUT
+						</h2>
+						<p>
+							Please provide us with your basic contact information to start your background check and reservation 
+						</p>
+						<div class="reservation">
+							<form action=="" method="post">
+								<input class="rsvp" type="text" value="First Name">
+								<input class="rsvp" type="text" value="Last Name">
+								<input class="rsvp" type="text" value="Email Address">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+								
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		</body>
+		<!--END RSVP-->
+		
+		<!--FOOTER-->
+		<div>
+			www.GenesisLabs.com &nbsp;|&nbsp; &copy; 2016
+		</div>
+		<!--<!--END FOOTER-->
+</html>

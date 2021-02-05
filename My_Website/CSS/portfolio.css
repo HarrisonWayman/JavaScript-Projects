@@ -7,7 +7,7 @@ body {
 /* Heading 1 elements */
 h1 {
     text-transform: uppercase; /* Capitalizing all h1 headings */
-    font-family: "Trebuchet MS", Optima; /* Sets the font family of all h1 headings */
+    font-family: Bookman, serif; /* Sets the font family of all h1 headings */
     text-align: center; /* Centering all h1 elements */
     margin-top: 3%; /* Adds a small margin above h1 elements */
     color: #rgb(21, 240, 13); 
@@ -22,12 +22,12 @@ h1:hover {
 
 /* Styling for portfolio title text */
 .white-text {
-    color: rgb(59, 248, 11); /* This is used to change the color of the portfolio title text */
+    color: rgb(255, 255, 255); /* This is used to change the color of the portfolio title text */
 }
 
 /* Paragraph elements */
 p {
-    font-family: Perpetua, Rockwell Extra Bold;
+    font-family: New Century Schoolbook, serif;
     text-align: justify; /* Justify text within paragraph elements */
     letter-spacing: 1px; /* This expands the text slightly */
     font-size: 25px;
@@ -122,7 +122,7 @@ footer {
     color: rgb(21, 240, 13); /* This is the font color for text on our navbar */
     padding: 14px 16px; /* This adds padding around our text */
     text-decoration: none; /* This gets rid of the underlines under the text on our navbar */
-    font-family: Avant Garde, Helvetica; /* This specifies the font family for text on our navbar */
+    font-family: Bookman, serif; /* This specifies the font family for text on our navbar */
     font-size: 30px; /* This specifies the font size for text on our navbar */
     text-align: center; /* This centers the text within its container */
     position: relative; /* This sets the text relative to its normal positioning, allowing us to use the animation below */
